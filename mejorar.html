@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayudanos a mejorar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="index.html">
+    <img src="img/TEMICHET_isologo.png"  class="d-inline-block align-top" alt="">
+    </a>
+
+    <a class="navbar-brand temichet_texto">TEMICHET</a>
+    <button id="nav-toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="border: solid, black, 2px;">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav opciones-nav" style="margin-left: 30%; margin-right: 0; text-align: right; column-gap: 20px;">
+        <a class="nav-item nav-link" href="productos.html" style="color: rgb(52, 0, 57);">Productos</a>
+        <a class="nav-item nav-link" href="nosotros.html" style="color: rgb(52, 0, 57);">Nosotros</a>
+        <a class="nav-item nav-link" href="contactanos.html" style="color: rgb(52, 0, 57);">Contactanos</a>
+        <a class="nav-item nav-link" href="mejorar.html" style="color: rgb(52, 0, 57);">Ayudanos a mejorar</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <main>
+        <form>
+            <section class="encuesta">
+                <label for="correo">Email (opcional)</label>
+                <input type="email" id="correo">
+
+                <label for="encontrar">¿Cómo encontraste esta página?</label>
+                <select name="encontrar" id="encontrar" required>
+                  <option value="">Por favor elegir una opción</option>
+                  <option value="redes">Redes sociales</option>
+                  <option value="publicidad">Publicidad</option>
+                  <option value="contacto">Amigo/a, familiar o conocido</option>
+                  <option value="otro">Otro</option>
+                </select>
+
+                <label for="producto">¿Qué productos quisieras ver? (opcional)</label>
+                <input type="text" id="producto" required>
+
+
+                <label>Experiencia en la página</label>
+                
+
+                <div class="opciones_radio">
+                  <div class="input_radio">
+                    <input type="radio" name="experiencia" id="excelente">
+                    <label for="excelente">Excelente</label>
+                  </div>
+
+                  <div class="input_radio">
+                    <input type="radio" name="experiencia" id="buena">
+                    <label for="buena">Buena</label>
+                  </div>
+
+                  <div class="input_radio">
+                    <input type="radio" name="experiencia" id="regular">
+                    <label for="regular">Regular</label>
+                  </div>
+
+                  <div class="input_radio">
+                    <input type="radio" name="experiencia" id="mala">
+                    <label for="mala">Mala</label>
+                  </div>
+
+                  <div class="input_radio">
+                    <input type="radio" name="experiencia" id="muymala">
+                    <label for="muymala">Muy mala</label>
+                  </div>
+                </div>
+
+
+                <label for="comment">Comentario (opcional)</label>
+                <textarea type="text" id="comment"></textarea>
+
+                
+                <button  type="submit">Enviar</button>
+            </section>
+        </form>
+
+    </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <footer>
+      <p>©2026. Florencia Cézar. Todos los derechos reservados</p>
+      <div class="redes_footer">
+        <p>Seguinos: </p>
+        <a href="https://www.instagram.com/_temichet?igsh=MXJmZHN6cmQydDdwbw==">
+          <img class="redes_img_ig" src="img/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/share/1Dgh1RuU7N/">
+          <img class="redes_img_fb" src="img/facebook.png" alt="Instagram">
+        </a>
+      </div>
+      <div class="ubicacion_footer">
+          <p>Ubicación: San Francisco, Córdoba, Argentina</p>
+      </div>
+      
+  </footer>
+</body>
+</html>
