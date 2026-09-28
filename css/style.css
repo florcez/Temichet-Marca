@@ -15,6 +15,8 @@ nav{
     button{
         width: 50px;
         height: 45px;
+
+        margin-right: 25px;
     }
     img{
         width: 90px;
@@ -44,6 +46,10 @@ nav{
     @media (max-width:400px){
         font-size: 26px;
     }
+}
+
+.nav-link{
+    margin-right: 10px;
 }
 
 /*-----------------------------------NAV------------------------------------------------*/
@@ -122,13 +128,97 @@ nav{
 
 
 
-
-
 .cajas{
     display: flex;
     flex-direction: column;
-
 }
+
+.caja{
+    margin: auto;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+
+
+    max-width: 800px;
+
+    background-color: #ffcdf7;
+
+    border: 5px solid #ff3aff;
+    border-radius: 30px;
+
+    img{
+        max-width: 150px;
+        min-width: 130px;
+
+        height:inherit;
+        object-fit: cover;
+
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+
+        border-right: solid 2px #ff3aff;
+
+
+    }
+
+    @media (max-width: 820px){
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.caja_texto{
+    margin-left: 10px;
+    margin-right: 5px;
+
+
+    h1{
+        font-size: 25px;
+        font-family: Rubik, Arial
+    }
+    p{
+        font-size: 16px;
+        font-family: Inter, Arial;
+    }
+
+    @media(max-width:450px){
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+}
+    
+.explorar_button{
+
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 82%;
+    font-family: Inter, Arial;
+
+    text-align: center;
+
+    @media (max-width: 820px){
+        margin-left: calc(100% - 110px);
+    }
+    @media(max-width: 450px){
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+
+        margin-left: calc(100% - 90px);
+    }
+    @media(max-width:386px){
+        margin: 3px;
+        margin-left: calc(100% - 90px);
+    }
+}
+/*
 
 .caja{
     margin: auto;
@@ -246,6 +336,7 @@ nav{
         margin-left: 70%;
     }
     
+    
     @media (max-width: 410px){
         margin-left: 60%;
     }
@@ -255,10 +346,9 @@ nav{
         width: 65px;
         margin-left: 70%;
     }
-
-
-
 }
+
+
 /*-----------------------------------INDEX------------------------------------------------*/
 
 /*-----------------------------CONTACTANOS-MEJORAR------------------------------------------------*/
@@ -425,7 +515,7 @@ legend{
     transform: translateY(50%);
 }
 
-.nosotros_texto{
+.nosotros_texto, .mision_vision{
 
     margin: auto;
     max-width: 1000px;
@@ -447,11 +537,17 @@ legend{
         font-size: 18px;
         padding: 10px;
     }
+
+    h2{
+        font-family: Rubik, Arial;
+        padding: 10px;
+    }
 }
 
 .carousel{
     width: 50%;
     margin: auto;
+    margin-top: 20px;
 
     @media (max-width: 700px){
         width: 90%;
@@ -510,6 +606,7 @@ legend{
 .precio{
     display: flex;
     margin-left: 25px;
+    gap: 5px;
 
     p, h6{
         font-size: 18px;
