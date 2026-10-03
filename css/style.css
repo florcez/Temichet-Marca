@@ -145,7 +145,7 @@ nav{
 
     background-color: #ffcdf7;
 
-    border: 5px solid #ff3aff;
+    border: 3px solid #ff3aff;
     border-radius: 30px;
 
     img{
@@ -158,7 +158,7 @@ nav{
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
 
-        border-right: solid 4px #ff3aff;
+        border-right: solid 3px #ff3aff;
 
 
     }
